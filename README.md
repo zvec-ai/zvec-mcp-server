@@ -268,24 +268,7 @@ uv pip install -e ".[dev]"
 
 # Run all tests
 pytest tests/test_server.py -v
-
-# Run specific test class
-pytest tests/test_server.py::TestMultiVectorQuery -v
-
-# Run with coverage report
-pytest tests/test_server.py --cov=zvec_mcp --cov-report=html
-
-# Run tests with output
-pytest tests/test_server.py -v -s
 ```
-
-### Testing with MCP Inspector
-
-```bash
-# Test the server interactively
-npx @modelcontextprotocol/inspector python -m zvec_mcp
-```
-
 ## References
 
 - [Zvec GitHub](https://github.com/alibaba/zvec)
