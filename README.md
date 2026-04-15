@@ -27,7 +27,7 @@ This MCP server enables LLMs to interact with Zvec vector database through well-
 ### Requirements
 
 - Python 3.10 - 3.14
-- Supported platforms: Linux (x86_64, ARM64), macOS (ARM64)
+- Supported platforms: Linux (x86_64, ARM64), macOS (ARM64), Windows (x86_64)
 
 ### Install from PyPI
 
