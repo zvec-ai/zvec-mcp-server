@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/zvec-ai-zvec-mcp-server-badge.png)](https://mseep.ai/app/zvec-ai-zvec-mcp-server)
+
 # Zvec MCP Server
 
 A Model Context Protocol (MCP) server for [Zvec](https://github.com/alibaba/zvec), a high-performance embedded vector database by Alibaba.
