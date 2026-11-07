@@ -7,7 +7,10 @@ try:
 except ImportError:
     raise ImportError("zvec is not installed. Please install it with: pip install zvec")
 
-from mcp.server.fastmcp import FastMCP
+try:
+    from mcp.server.mcpserver import MCPServer as FastMCP
+except ImportError:
+    from mcp.server.fastmcp import FastMCP  # type: ignore[no-redef]
 
 from zvec_mcp.schemas import (
     CreateCollectionInput,
