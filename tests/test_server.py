@@ -471,6 +471,10 @@ class TestVectorQuery:
 
 
 @pytest.mark.asyncio
+@pytest.mark.skipif(
+    not os.getenv("OPENAI_API_KEY"),
+    reason="OpenAI API key required for live reranker tests",
+)
 class TestMultiVectorQuery:
     """Test multi-vector query with re-ranking."""
 
